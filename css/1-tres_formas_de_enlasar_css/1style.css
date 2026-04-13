@@ -1,0 +1,36 @@
+.daniel {
+    color: aqua;
+}
+
+.daniel {
+    color: rgb(199, 211, 27);
+}
+
+.daniel {
+    color: rgb(162, 9, 233);    /*Gana este color ya que es el ultimo, aunque aplico propiedades 3 veces a un mismo elemento html, gana este porque es el ultimo que esta a ese elemetno */
+}
+
+#daniel {
+    color: blueviolet;
+}
+
+.alejandro p {
+    color: brown;
+    background-color: black;
+}
+
+#a {
+    color: chartreuse;
+}
+
+#ganador {
+    color: brown;  
+}
+                        /* Aqui gana el ID ya que hago uso de la propiedad de color dos veces a un mismo elemento html, un uso con class y otro con id, pero gana el id ya que es de mayor rango en css */
+.ganador {
+    color: blue;
+}
+
+ol {
+    color: coral;
+}
